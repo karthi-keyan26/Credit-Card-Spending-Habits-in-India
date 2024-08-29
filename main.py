@@ -5,7 +5,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-data = pd.read_csv('Creditcardtransactions-India.csv')
+data = pd.read_csv('/kaggle/input/analyzing-credit-card-spending-habits-in-india/Credit card transactions - India - Simple.csv')
 print("Checking the first 10 elements")
 print(data.head(10))
 
